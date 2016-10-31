@@ -172,7 +172,7 @@ def get_ngram_counts(ngramsf, corpus_dir, n_jobs=1):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Segment files using Punkt algorithm.',
+    parser = argparse.ArgumentParser(description='Extract ngram counts.',
                                      add_help=False,
                                      usage='%(prog)s [options] ngramsf corpus_dir')
     parser.add_argument('ngramsf', nargs='?',
